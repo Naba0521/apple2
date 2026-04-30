@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.video-page {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+.video-page__bg {
+  position: fixed;
+  inset: 0;
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
